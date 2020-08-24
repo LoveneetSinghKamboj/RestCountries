@@ -19,6 +19,7 @@ public class FilterResponse {
 		JsonPath j= new JsonPath(name.asString());
 		System.out.println(j.getString("name"));
 		
+		System.out.println("Hello Loveneet SIngh");
 		
 		//given().queryParam("fulltext","true").header("content-type","application/json").when().get("")
 				
